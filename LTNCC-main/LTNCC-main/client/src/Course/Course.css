@@ -1,0 +1,149 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  .Container {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .text_center {
+    text-align: center;
+  }
+  
+  .text_right {
+    float: right;
+    cursor: pointer;
+  }
+  
+  .btn {
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  tr {
+    height: 10px;
+  }
+  
+  .dropdown-toggle {
+    background-color: whitesmoke;
+  }
+  
+  .text_center {
+    /* text-align: center; */
+    /* font-weight: bold; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #title_ql {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5rem;
+    color: #1f692f;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3);
+  }
+  .hide {
+    background-color: white;
+  }
+  
+  .data {
+    float: right;
+    margin-right: 10px;
+  }
+  
+  .sort_selected::after {
+    content: "\f00c";
+    font-weight: normal;
+    font-family: FontAweSome;
+    margin: 0px 0px 0px 10px;
+    display: inline-block;
+  }
+  
+  .center {
+    text-align: center;
+    margin-left: 30%;
+  }
+  
+  .back {
+    padding-top: 50px;
+    margin-left: 20%;
+  }
+  
+  .ml-20 {
+    margin-left: 20px;
+  }
+  
+  .dropdown {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  #qlmh {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3);
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #1f692f;
+  }
+  
+  .custom{
+    background-color: #097a46;
+    &:hover {
+      background-color: #096e16;
+    }
+  }
+  .monhoc-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.monhoc-item {
+    text-decoration: none;
+    color: inherit;
+    width: 250px;
+}
+
+.monhoc-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.monhoc-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.monhoc-content h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.monhoc-content p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+  
